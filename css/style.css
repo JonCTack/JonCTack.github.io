@@ -1,4 +1,5 @@
 html {box-sizing: border-box}
+font-family: "Times New Roman", Times, serif;
 *, *::before, *::after {box-sizing: inherit}
 #div1{position:  relative; background-color:lightgray; border-radius: 6px; border: solid;}
 #div2{background-color:  gray; display: inline-block; margin-left: auto; margin-right: auto; border-radius: 6px}
@@ -14,7 +15,7 @@ html {box-sizing: border-box}
 .centered { margin-left: auto; margin-right: auto; max-width: 75%; }
 #centerimg {margin: auto; max-width: 75%;}
 #submit {margin: auto; color: blue; background-color: gold; cursor: pointer;}
-th, td {border: 1px solid; border-collapse: collapse;}
+th, td {border: 1px solid; border-collapse: collapse;text-align: center}
 table {border: 1px solid; border-collapse: collapse; width: 100%; }
 .centeredb { margin-left: auto; margin-right: auto; max-width: 75%; transition-duration: 0.4s; border-radius: 6px; border: solid;}
 input[type=button]: {border: solid; color: gold}
